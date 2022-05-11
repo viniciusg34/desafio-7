@@ -1,0 +1,63 @@
+.homeMain{
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.centralizarTextos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.centralizarTitulo{
+    margin-bottom: 33px;
+}
+
+.titulo{
+    font-size: 36px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.loremIp{
+    font-size: 24px;
+    font-family: 'Roboto';
+}
+
+.loremPrincipal{
+    max-width: 1090px;
+    font-size: 14px;
+}
+
+.links{
+    text-decoration: none;
+    color: #4B2142;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+}
+
+.centralizarInfo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 44px;
+    margin-bottom: 20px;
+    width: 1090px;
+}
+
+.filmes,.categoria{
+    font-size: 24px;
+}
+
+.LoremInfo{
+    max-width: 400px;
+    font-size: 14px;
+}

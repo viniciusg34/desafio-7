@@ -1,0 +1,128 @@
+.filmesMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 21px;
+}
+
+.mainFilmes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+}
+
+.inputTituloFilme{
+ margin-top: 2px;
+}
+
+.centralizarTituloFilmes{
+    display: flex;
+    justify-content: center;
+}
+
+.tituloFilmes{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.cinema{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 9px;
+}
+
+.inputCadastrarFilme{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.inputTitulo{
+    width: 390px;
+    height: 40px;
+    border: 1px solid #000000;
+    padding: 10px;
+    font-family: 'Roboto';
+    color: #4B2142;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.generoFilme{
+    margin-top: 42px;
+    width: 400px;
+    height: 62px;
+    border: 1px solid #000000;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url(../../../assets/images/select.png);
+    background-repeat: no-repeat, repeat;
+    background-position: right 1.2em top 60%, 0 0;
+    background-size: 0.8em auto, 100%;
+    padding: 10px;
+    color: #4B2142;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;  
+}
+
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 67px;
+    margin-top: 32px
+}
+
+.card{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.filme{
+    width: 217px;
+    font-size: 20px;
+}
+
+.cardGenero{
+    width: 130px;
+}
+
+.textoFilme{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #4B2142;
+}
+
+.botaoEditar{
+    color: #fff;
+    font-size: 20px;
+}
+
+.botaoEditar:hover{
+    color: black;
+    background-color: #fff;
+}
+
+.botaoExcluir{
+    font-size: 20px;
+}
+
+.botaoExcluir:hover{
+    color: black;
+    background-color: #fff;
+}
+
+.cadastrar:hover{
+    color: black;
+    background-color: #fff;
+    border: 5px solid #F6511D;
+}

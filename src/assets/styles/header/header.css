@@ -1,0 +1,72 @@
+.cabecalho{
+    height: 200px;
+    background-color: #9BD2DE;
+    display: flex;
+    justify-content: center;
+}   
+
+.centralizarCabecalho{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalhoEsquerda{
+    width: 600px;
+    height: 120px   
+}
+
+.textoLogo{
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+}
+
+.transparent{
+    background-color: transparent;
+    border: none;
+}
+
+.botao{
+    color:#4B2142
+}
+
+.botao:hover{
+    border-bottom: 2px #4B2142 solid ;
+}
+
+.links{
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #4B2142;
+}
+
+.textoCabecalho{
+    display: flex;
+    flex-direction: column;
+}
+
+.tituloHeader{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+}
+
+
+h2,h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Roboto';
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    color: #000000;
+}

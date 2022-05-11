@@ -1,0 +1,103 @@
+.mainUsuario{
+    display: flex;
+    justify-content: center;
+    margin-top: 21px;
+}
+
+.centralizarUsuario{
+    width: 80%;
+}
+
+.tituloUsuario{
+    display: flex;
+    justify-content: center;
+}
+
+.inputUsuario{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cadastro{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.textos{
+    margin-bottom: 9px;
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #4B2142;
+}
+
+.inputs{
+    width: 310px;
+    height: 40px;
+    border: 1px solid #000000;
+    padding: 10px;
+}
+
+.cadastrar{
+    width: 180px;
+    height: 58px;
+    background-color:#F6511D;
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    border: none;
+    margin-top: 36px;
+    cursor: pointer;
+}
+
+.painelRegistros{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 81px;
+    margin-bottom: 87px;
+}
+
+.registros{
+    display: flex;
+    justify-content: space-between;
+}
+
+.alinharRegistro{
+    display: flex;
+    justify-content: space-between;
+    width: 260px;
+}
+
+.registroNome{
+    width: 100px;
+}
+
+.botaoEditar{
+    width: 125px;
+    height: 35px;
+    background-color: #F6511D;
+    border: 2px solid #F6511D;
+    border-radius: 20px;
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+.botaoExcluir{
+    width: 125px;
+    height: 35px;
+    background-color: #41B8D2;
+    border: 2px solid #41B8D2;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.linkUsuario{
+    color: #fff;
+    font-size: 20px;
+}

@@ -1,0 +1,31 @@
+.centralizarModalFilmes{
+    display: flex;
+    justify-content: center;
+}
+
+.modalFilmes{
+    background-color: #fff;
+    height: 200px;
+    position: fixed;
+    width: 80%;
+    border-top-left-radius: 20px ;
+    border-top-right-radius: 20px ;
+    border-bottom-left-radius: 20px ;
+    border-bottom-right-radius: 20px ;
+    top: 35vh;
+}
+
+.centralizarInputsModalFilmes{
+    display: flex;
+    justify-content: space-around;
+    height: 135px;
+    margin-top: 30px;
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: flex;
+}

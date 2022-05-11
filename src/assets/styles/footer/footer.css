@@ -1,0 +1,42 @@
+.rodape{ background-color: #F6511D;
+    height: 200px;
+    display: flex;
+    color: aliceblue;
+    justify-content: center;
+}
+
+.logoDark{
+    width: 174px;
+    height: 64px;
+    margin-top: 23px;
+    margin-right: 45px;
+}
+
+.textoFooter{
+    margin-top: 0px;
+    margin-bottom: 5px ;
+}
+
+.fundo{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+
+.linha{
+    border: 1px solid #FFFFFF;
+    height: 170px;
+    margin-top: 15px;
+}
+
+.pFooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 40px;
+    font-family: 'Roboto';
+    color: #FFFCFC;
+}

@@ -1,0 +1,64 @@
+.centralizarModalGenero{
+    display: flex;
+    justify-content: center;
+}
+
+.modal{
+    position: fixed;
+    width: 80%;
+    height: 250px;
+    top: 45vh;
+    left: 9.8vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+.escurecer{
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+}
+
+.faixaAzul{
+    width: 100%;
+    height: 20px;
+    background-color: #9bd2de;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.fechar{
+    margin-top: 2px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.fechar:hover{
+    color: #fff;
+}
+
+.centralizarSalvarGeneroModal{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0px;
+    height: 136px;
+}
+
+.faixaLaranja{
+    background-color: #F6511D;
+    height: 15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: block;
+}
