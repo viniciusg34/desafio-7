@@ -6,7 +6,6 @@ import '../../assets/styles/genero/genero.css'
 import { apiFilmes } from '../../services/api'
 import { Modal } from "../../components/modal/modal"
 
-
 export const Genero = (props:any):JSX.Element =>{
 
     let cabecalhoGenero ='Cadastre os gêneros dos filmes'

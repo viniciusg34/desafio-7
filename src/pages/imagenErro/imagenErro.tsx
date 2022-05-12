@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import stonks from '../../assets/images/stonks.webp'
+import stonks from '../../assets/images/stonks.jpeg'
 import '../../assets/styles/imagenErro/imagenErro.css'
 
 export const ImagenGenero = (props:any):JSX.Element =>{
